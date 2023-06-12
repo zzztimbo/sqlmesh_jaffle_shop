@@ -54,6 +54,9 @@ select * from orders;
 ## Purpose
 
 This repo illustrates how to utilize SQLmesh for visualizing column lineage using the sqlmesh IDE.
+
 The `sqlmesh ide` command will launch the IDE in your browser.
+
 Click on the `Docs` button in the upper right corner. 
+
 Click on one of the two business tables: `jaffle_shop.jaffle_shop.orders` or `jaffle_shop.jaffle_shop.customers`, then click on a column in the table (it should be the right most table).
