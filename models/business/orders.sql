@@ -1,5 +1,5 @@
 model (
-    name jaffle_shop.jaffel_shop.orders,
+    name jaffle_shop.jaffle_shop.orders,
     kind full
 );
 
