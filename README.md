@@ -25,17 +25,18 @@ source .venv/bin/activate
 
 ## SQLmesh commands
 ```
-sqlmesh test
-``
+sqlmesh plan
+```
 
 This will create a duckdb file: `jaffle_shop.duckdb`.
 
 Starting over is as simple as removing this file. 
 
+
 ```
-sqlmesh plan
 sqlmesh ide
 ```
+Launches the sqlmesh IDE.
 
 ## DuckDB commands
 
@@ -53,4 +54,6 @@ select * from orders;
 ## Purpose
 
 This repo illustrates how to utilize SQLmesh for visualizing column lineage using the sqlmesh IDE.
-It also shows the utility of sqlglot in generating a list of columns used by upstream tables in our jaffle shop sources. This can be seen in the `jaffle_shop_duckdb_column_lineage.ipynb` notebook. 
+The `sqlmesh ide` command will launch the IDE in your browser.
+Click on the `Docs` button in the upper right corner. 
+Click on one of the two business tables: `jaffle_shop.jaffle_shop.orders` or `jaffle_shop.jaffle_shop.customers`, then click on a column in the table (it should be the right most table).
