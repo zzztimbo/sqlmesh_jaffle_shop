@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sqlmesh-jaffle-shop-og"
+version = "0.1.0"
+description = ""
+authors = ["Tim Chan"]
+readme = "README.md"
+packages = [{include = "sqlmesh_jaffle_shop_og"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlmesh = {extras = ["web"], version = "^0.14.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
