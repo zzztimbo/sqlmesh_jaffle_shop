@@ -1,0 +1,7 @@
+gateways:
+    local:
+        connection:
+            type: duckdb
+            database: jaffle_shop.duckdb 
+
+default_gateway: local
